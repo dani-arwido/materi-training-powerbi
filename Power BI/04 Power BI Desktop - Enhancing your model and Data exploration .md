@@ -2,7 +2,7 @@
 
 `In this section, you will do initial data exploration along with model enhancements to create a calculated column, set up relationships and create a measure using DAX (Data Analysis Expression).`
 
-You have been asked to analyze the sales over time
+> You have been asked to analyze the sales over time
 
 1. Click on the Report icon on the left panel to get to the Report view.
 
@@ -20,23 +20,23 @@ You have been asked to analyze the sales over time
 
 8. Resize the visual as needed by dragging the edges.
 
-Let us say an executive at your company asks “How were the sales at my company (VanArsdel) by months in addition to years?” You can answer this question very easily by enabling the “drill up/down” functionality in Power BI desktop.
+> Let us say an executive at your company asks “How were the sales at my company (VanArsdel) by months in addition to years?” You can answer this question very easily by enabling the “drill up/down” functionality in Power BI desktop.
 
 9. To enable this functionality in the visual drag MonthName column from the Date Table into the Axis below the Year. You have now created a Year/Month “Hierarchy” in the Axis column.
 
-You should see additional icons enabled on the top left and right hand side of the visual. These icons allow you to “Drill down/up”.
+> You should see additional icons enabled on the top left and right hand side of the visual. These icons allow you to “Drill down/up”.
 
 10. You can drill down from Year level to see Revenue at a month level across all data points by clicking on the double down arrow at the top left corner of the visual. Clicking on the split arrow on the top left corner of the visual provides the capability to view Inline hierarchy i.e., you will be able to view Year and Month information on the X-axis. Click on both the arrow types to view the difference in experience.
 
-To go back up to Revenue by Year click on the up-arrow button on the extreme top left corner of the visual.
+> To go back up to Revenue by Year click on the up-arrow button on the extreme top left corner of the visual.
 
-When you drill down you will notice that the months are sorted in alphabetical order. Power BI offers you the ability to change the sort order on a column.
+> When you drill down you will notice that the months are sorted in alphabetical order. Power BI offers you the ability to change the sort order on a column.
 
 11. To change the sort order, go to the Data view. Select Date table from the Fields list on the right. Then highlight the MonthName column within that table. From the ribbon, select Modeling -> Sort by Column -> MonthNo.
 
 12. Navigate back to the report view and notice the months are now sorted in the right order.
 
-Year and month is concatenated in the XAxis. Let’s say we want we want the months grouped by years.
+> Year and month is concatenated in the XAxis. Let’s say we want we want the months grouped by years.
 
 13. With the column chart highlighted, in the Visualization section, click on the Format (paint roller) icon.
 
