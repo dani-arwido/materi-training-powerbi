@@ -1,6 +1,6 @@
 # Power BI Desktop - Enhancing your model and Data exploration
 
-##In this section, you will do initial data exploration along with model enhancements to create a calculated column, set up relationships and create a measure using DAX (Data Analysis Expression).
+## In this section, you will do initial data exploration along with model enhancements to create a calculated column, set up relationships and create a measure using DAX (Data Analysis Expression).
 
 You have been asked to analyze the sales over time
 
