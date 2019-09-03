@@ -97,7 +97,8 @@ For the next visualization, assume you want to be able to analyze the sales of u
 > 42. From Fields section, expand Geography table. Drag and drop the Country column to Axis.
 > 43. From Fields section, expand Sales table. Drag and drop the Units column to the Value.
 
-You will see all the countries having about 11.4 Million units. The reason you see the same value is due to the fact there is no relationship between the Geography table and the Sales table.  
+You will see all the countries having about 11.4 Million units. The reason you see the same value is due to the fact there is no relationship between the Geography table and the Sales table.
+
 You now need to set up the correct relationship between these tables. To create a relationship between the two tables we need a “joining” or “relating” column.
 
 In this case the columns Zip and Country will help us establish the relationship since you can uniquely identify each row in the Geography table with Zip and Country. We need to create a new column in both the Geography table and the Sales table that combines “Zip” and “Country”. Let us start by creating a new column in the Sales table.
@@ -112,8 +113,10 @@ You will see a formula editor appear as shown in the figure to help create this 
 
 > 46. Once you are done entering the formula click in the check mark on the left side of the formula editor.
 
-You will notice that as you type the expression the Power BI desktop guides you to choose the right columns using a Technology called Intellisense. As you type half way through you can select the right column by double clicking on it using your mouse or by continuing to hit tab until you see the correct name.  
-The language you used to create this new column is called DAX (Data Analysis Expression) which is very similar to writing expressions in Excel where you are concatenating the two columns (Zip and Country) in each row by using the “&” symbol.  
+You will notice that as you type the expression the Power BI desktop guides you to choose the right columns using a Technology called Intellisense. As you type half way through you can select the right column by double clicking on it using your mouse or by continuing to hit tab until you see the correct name.
+
+The language you used to create this new column is called DAX (Data Analysis Expression) which is very similar to writing expressions in Excel where you are concatenating the two columns (Zip and Country) in each row by using the “&” symbol.
+
 You will see a new column ZipCountry in Sales table. The icon with a (fx) indicates you have a column that contains an expression, also referred to as calculated column.  
 You can also create a new column by selecting the table and then clicking on Modeling -> New Column from the ribbon. Let us use this method to create a “ZipCountry” column in the Geography table.
 
@@ -145,16 +148,18 @@ Similarly, there is an option to Include as well.
 
 > 62. Click on bar for USA in the bottom graph to analyze what portion of the units sold in USA contributes towards to overall Sales.
 
-You will immediately notice that in the bottom graph the rest of the bars fade away and USA remains highlighted in the bold. Similarly, in the graph on the top a portion of each bar is highlighted in bold and the rest is faded. This visually shows the proportion of sales from USA (for each manufacturer and in each Year/Month). This is called Cross filtering in Power BI. You can remove the cross-filtering effect by clicking anywhere on the bottom graph. Note: You have now created a visual filter on the top graph while the bottom graph on units sold includes all manufacturers.
+You will immediately notice that in the bottom graph the rest of the bars fade away and USA remains highlighted in the bold. Similarly, in the graph on the top a portion of each bar is highlighted in bold and the rest is faded. This visually shows the proportion of sales from USA (for each manufacturer and in each Year/Month). This is called Cross filtering in Power BI. You can remove the cross-filtering effect by clicking anywhere on the bottom graph.
+
+**Note:** You have now created a visual filter on the top graph while the bottom graph on units sold includes all manufacturers.
 
 Since the units sold are by country, you can easily map your sales.
 
 > 63. Select the bottom column chart and click on the map visual icon (not the filled map visual) in Visualizations. You will see the bottom visual change to a map visualization and the size of the bubble in each country shows the total number of units sold.
 > 64. Resize the map as needed.
 
-Note: Microsoft Bing is used to create the map; hence you must be connected to the internet for the map visual to work.
+**Note:** Microsoft Bing is used to create the map; hence you must be connected to the internet for the map visual to work.
 
-Note: You didn’t have to do any complex operations to change the visual type, Power BI desktop automatically understood the Country column and add it to the location and the units to the values.
+**Note:** You didn’t have to do any complex operations to change the visual type, Power BI desktop automatically understood the Country column and add it to the location and the units to the values.
 
 Let’s assume we want to create a table visual to display the Revenue by year and add a column that displays the % of revenue for each year to help figure out the years where sales were high.
 
@@ -230,7 +235,6 @@ Next let’s create clusters.
 > 100.  Click on the ellipsis on the top right corner of the Scatter chart.
 > 101.  Select Automatically find clusters.
 > 102.  Clusters dialog opens. We have option to provide cluster Name and Description and the Number of clusters. Enter 4 for Number of Clusters.
-
 > 103.  Click OK.
 
 Using clustering algorithm 4 clusters are created by default. Notice it clusters products with low average units sold and low average revenue, products with low average units sold and high average revenue and so on.
