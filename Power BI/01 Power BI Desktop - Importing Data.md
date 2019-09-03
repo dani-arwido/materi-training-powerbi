@@ -5,7 +5,7 @@
 > 1.  If you don’t have the **Power BI Desktop open**, launch it now.
 > 2.  Startup screen opens. Click on Sign In and sign in using your Power BI credentials. Signing in to Power BI Desktop helps later when you are publishing to Power BI Service.
 
-   <img src="https://raw.githubusercontent.com/dani-arwido/materi-training-powerbi/master/Assets/>001. jpg"  width="600" height="300">
+   <img src="https://raw.githubusercontent.com/dani-arwido/materi-training-powerbi/master/Assets/>001.jpg"  width="600" height="300">
 
 Let’s set up the locale to US English, to make it convenient to go through the rest of this lab.
 
@@ -72,7 +72,8 @@ Folder dialog opens.
 > 26. Click OK (to close the Browse for Folder dialog box).
 > 27. Click OK (to close the Folder dialog box).
 
-**Note:** This approach, uses folders instead of individual files. This will load all files in the folder. This is useful when you have a group that puts files on an ftp site each month and you are not always sure of the names of the files or the number of files. **Note:** All the files must be of the same file type with columns in the same order.
+**Note:** This approach, uses folders instead of individual files. This will load all files in the folder. This is useful when you have a group that puts files on an ftp site each month and you are not always sure of the names of the files or the number of files.
+**Note:** All the files must be of the same file type with columns in the same order.
 
 Dialog displays the list of files in the folder.
 
@@ -100,7 +101,6 @@ In Queries panel, notice Transform Binary from International Sales folder is cre
 If you compare this table and bi_salesFact table you imported earlier, you will see the InternationalSales table contains two new columns, Source.Name and Country.
 
 > 35. We do not need Source.Name column. Select Source.Name column. From the ribbon, select Home -> Remove Columns > Remove Columns.
-
 > 36. Click on the drop down next to Country column to see the unique values.
 > 37. You will only see Australia as shown in the figure. Click on Load more to validate you have data from various countries included.
 
