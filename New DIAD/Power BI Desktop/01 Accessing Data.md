@@ -14,7 +14,7 @@ Product, Geography and Manufacturer information is in an excel file in /Data/USS
 
 1. Open /Data/USSales/bi_dimensions.xlsx. Notice the first sheet has Product information. The sheet has a header and product data is in a named table. Also notice Category column has a bunch of empty cells.
 
-Manufacturer sheet has data laid out across the sheet and with no column headers and it has a couple of blank rows and a **note **in row 7.
+Manufacturer sheet has data laid out across the sheet and with no column headers and it has a couple of blank rows and a note in row 7.
 
 Geo sheet has geography information. The first couple of rows has data details. Actual data starts from row 4.
 
