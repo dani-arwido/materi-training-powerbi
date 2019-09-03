@@ -6,7 +6,7 @@
 
 2. Startup screen opens. Click on Sign In and sign in using your Power BI credentials. Signing in to Power BI Desktop helps later when you are publishing to Power BI Service.
 
-   <img src="https://www.dropbox.com/s/t4guqt1c7l9jiza/001.jpg?dl=1"  width="600" height="300">
+   <img src="https://raw.githubusercontent.com/dani-arwido/materi-training-powerbi/master/Assets/001.jpg"  width="600" height="300">
 
 > Let’s set up the locale to US English, to make it convenient to go through the rest of this lab.
 
